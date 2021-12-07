@@ -1,0 +1,13 @@
+<button routerLink="/detalhes-usuario">Detalhes</button>
+
+<br>
+<br>
+
+<h1>Lista</h1>
+<!-- <p>{{ 1230 | currency}}</p>
+<ul>
+  <li *ngFor="let item of list$ | async"> {{item}} <app-remove [item]=item ></app-remove></li>
+</ul> -->
+<ul>
+  <li *ngFor="let item of todos$ | async"> {{item.title}}</li>
+</ul>
